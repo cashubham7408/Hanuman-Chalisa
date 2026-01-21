@@ -2,21 +2,26 @@
 <html lang="hi">
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="Hanuman Chalisa lyrics in Hindi with large clear font, easy to read devotional Shri Hanuman Chalisa path with meaning-based images." />
-  <title>Hanuman Chalisa Lyrics in Hindi | श्री हनुमान चालीसा पाठ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO META TAGS -->
+  <title>Hanuman Chalisa Lyrics in Hindi | श्री हनुमान चालीसा पाठ (Large Font)</title>
+  <meta name="description" content="Hanuman Chalisa lyrics in Hindi with large easy-to-read font. Complete and correct Shri Hanuman Chalisa with Doha and Chaupai for daily path and devotion." />
+  <meta name="keywords" content="Hanuman Chalisa lyrics, Hanuman Chalisa Hindi, Shri Hanuman Chalisa, Hanuman Chalisa path, Hanuman Chalisa lyrics in Hindi" />
+
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: "Noto Serif Devanagari", "Mangal", serif;
-      background-color: #f9f6f1; /* off-white */
+      background-color: #f9f6f1;
     }
 
     .container {
       max-width: 900px;
       margin: 20px auto;
-      padding: 20px;
-      border: 3px solid #8b0000; /* dark red border */
+      padding: 24px;
+      border: 3px solid #8b0000;
       border-radius: 16px;
       background-color: #fdfbf7;
     }
@@ -27,306 +32,107 @@
     }
 
     header img {
-      max-width: 250px;
+      max-width: 260px;
       width: 100%;
-      height: auto;
       border-radius: 12px;
-      margin-bottom: 15px;
+      margin-bottom: 16px;
     }
 
     h1 {
       color: #8b0000;
-      font-size: 2.8rem;
-      margin: 0;
+      font-size: 2.6rem;
+      margin-bottom: 10px;
     }
 
-    .controls {
+    h2 {
       text-align: center;
-      margin: 20px 0 30px 0;
+      color: #8b0000;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 2rem;
     }
 
-    .controls button {
-      background-color: #8b0000;
-      color: #fff;
-      border: none;
-      padding: 10px 16px;
-      margin: 5px;
-      font-size: 1rem;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .controls button:hover {
-      opacity: 0.9;
-    }
-
-    .chaupai {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      margin-bottom: 28px;
-      flex-direction: row-reverse; /* image on right, text on left */
-    }
-
-    .chaupai img {
-      width: 140px;
-      height: auto;
-      border-radius: 12px;
-      border: 2px solid #8b0000;
-      background-color: #fff;
-    }
-
-    .text {
-      color: #8b0000; /* dark red lyrics */
-      font-size: 1.8rem; /* big font */
-      line-height: 1.6;
-      flex: 1;
+    .verse {
+      text-align: center;
+      color: #8b0000;
+      font-size: 1.8rem;
+      line-height: 1.8;
+      margin-bottom: 22px;
     }
 
     footer {
       text-align: center;
       margin-top: 40px;
       color: #8b0000;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
-    @media (max-width: 700px) {
-      .chaupai {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .chaupai img {
-        width: 180px;
+    @media (max-width: 600px) {
+      .verse {
+        font-size: 1.5rem;
       }
     }
   </style>
 </head>
 <body>
   <div class="container">
+
     <header>
-      <img src="hanuman-top.jpg" alt="श्री हनुमान जी" />
-      <h1>श्री हनुमान चालीसा</h1>
+      <img src="hanuman-top.jpg" alt="Shri Hanuman Ji image - Hanuman Chalisa lyrics in Hindi" />
+      <h1>Hanuman Chalisa Lyrics in Hindi</h1>
+      <p style="color:#8b0000; font-size:1.2rem;">श्री हनुमान चालीसा पाठ</p>
     </header>
 
-    <h2 class="section-heading center">दोहा</h2>
+    <!-- FIRST DOHA -->
+    <h2>दोहा</h2>
+    <div class="verse">श्रीगुरु चरन सरोज रज, निज मनु मुकुरु सुधारि।<br>बरनउँ रघुबर बिमल जसु, जो दायकु फल चारि॥</div>
 
-    <div class="chaupai">
-      <img src="doha-start.jpg" alt="गुरु वंदना" />
-      <div class="text">श्रीगुरु चरन सरोज रज, निज मनु मुकुरु सुधारि।<br>बरनउँ रघुबर बिमल जसु, जो दायकु फल चारि॥</div>
-    </div>
+    <div class="verse">बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार।<br>बल बुधि विद्या देहु मोहिं, हरहु कलेस विकार॥</div>
 
-    <div class="chaupai">
-      <img src="doha-start-2.jpg" alt="पवनसुत वंदना" />
-      <div class="text">बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार।<br>बल बुधि विद्या देहु मोहिं, हरहु कलेस विकार॥</div>
-    </div>
+    <!-- CHAUPAI -->
+    <h2>चौपाई</h2>
 
-    <h2 class="section-heading center">चौपाई</h2>
+    <div class="verse">जय हनुमान ज्ञान गुन सागर।<br>जय कपीस तिहुँ लोक उजागर॥</div>
+    <div class="verse">राम दूत अतुलित बल धामा।<br>अंजनि-पुत्र पवनसुत नामा॥</div>
+    <div class="verse">महाबीर बिक्रम बजरंगी।<br>कुमति निवार सुमति के संगी॥</div>
+    <div class="verse">कंचन बरन बिराज सुबेसा।<br>कानन कुण्डल कुंचित केसा॥</div>
+    <div class="verse">हाथ बज्र औ ध्वजा बिराजै।<br>काँधे मूँज जनेऊ साजै॥</div>
+    <div class="verse">शंकर सुवन केसरी नंदन।<br>तेज प्रताप महा जग वंदन॥</div>
+    <div class="verse">विद्यावान गुनी अति चातुर।<br>राम काज करिबे को आतुर॥</div>
+    <div class="verse">प्रभु चरित्र सुनिबे को रसिया।<br>राम लखन सीता मन बसिया॥</div>
+    <div class="verse">सूक्ष्म रूप धरि सियहिं दिखावा।<br>विकट रूप धरि लंक जरावा॥</div>
+    <div class="verse">भीम रूप धरि असुर सँहारे।<br>रामचंद्र के काज सँवारे॥</div>
+    <div class="verse">लाय सजीवन लखन जियाये।<br>श्रीरघुबीर हरषि उर लाये॥</div>
+    <div class="verse">रघुपति कीन्ही बहुत बड़ाई।<br>तुम मम प्रिय भरतहि सम भाई॥</div>
+    <div class="verse">सहस बदन तुम्हरो जस गावैं।<br>अस कहि श्रीपति कंठ लगावैं॥</div>
+    <div class="verse">सनकादिक ब्रह्मादि मुनीसा।<br>नारद सारद सहित अहीसा॥</div>
+    <div class="verse">जम कुबेर दिगपाल जहाँ ते।<br>कवि कोविद कहि सके कहाँ ते॥</div>
+    <div class="verse">तुम उपकार सुग्रीवहिं कीन्हा।<br>राम मिलाय राज पद दीन्हा॥</div>
+    <div class="verse">तुम्हरो मंत्र विभीषण माना।<br>लंकेश्वर भए सब जग जाना॥</div>
+    <div class="verse">युग सहस्र योजन पर भानू।<br>लील्यो ताहि मधुर फल जानू॥</div>
+    <div class="verse">प्रभु मुद्रिका मेलि मुख माहीं।<br>जलधि लाँघि गये अचरज नाहीं॥</div>
+    <div class="verse">दुर्गम काज जगत के जेते।<br>सुगम अनुग्रह तुम्हरे तेते॥</div>
+    <div class="verse">राम दुआरे तुम रखवारे।<br>होत न आज्ञा बिनु पैसारे॥</div>
+    <div class="verse">सब सुख लहै तुम्हारी शरणा।<br>तुम रक्षक काहू को डरना॥</div>
+    <div class="verse">आपन तेज सम्हारो आपै।<br>तीनों लोक हाँक ते काँपै॥</div>
+    <div class="verse">भूत पिशाच निकट नहिं आवै।<br>महावीर जब नाम सुनावै॥</div>
+    <div class="verse">नासै रोग हरै सब पीरा।<br>जपत निरंतर हनुमत बीरा॥</div>
+    <div class="verse">संकट ते हनुमान छुड़ावै।<br>मन क्रम बचन ध्यान जो लावै॥</div>
+    <div class="verse">सब पर राम तपस्वी राजा।<br>तिन के काज सकल तुम साजा॥</div>
+    <div class="verse">और मनोरथ जो कोई लावै।<br>सोई अमित जीवन फल पावै॥</div>
+    <div class="verse">चारों जुग परताप तुम्हारा।<br>है परसिद्ध जगत उजियारा॥</div>
+    <div class="verse">साधु संत के तुम रखवारे।<br>असुर निकंदन राम दुलारे॥</div>
+    <div class="verse">अष्ट सिद्धि नौ निधि के दाता।<br>अस बर दीन जानकी माता॥</div>
+    <div class="verse">राम रसायन तुम्हरे पासा।<br>सदा रहो रघुपति के दासा॥</div>
+    <div class="verse">तुम्हरे भजन राम को पावै।<br>जनम जनम के दुख बिसरावै॥</div>
+    <div class="verse">अंतकाल रघुबर पुर जाई।<br>जहाँ जन्म हरि-भक्त कहाई॥</div>
+    <div class="verse">और देवता चित्त न धरई।<br>हनुमत सेई सर्व सुख करई॥</div>
+    <div class="verse">संकट कटै मिटै सब पीरा।<br>जो सुमिरै हनुमत बलबीरा॥</div>
+    <div class="verse">जय जय जय हनुमान गोसाईं।<br>कृपा करहु गुरुदेव की नाईं॥</div>
+    <div class="verse">जो शत बार पाठ कर कोई।<br>छूटहि बंदि महा सुख होई॥</div>
+    <div class="verse">जो यह पढ़ै हनुमान चालीसा।<br>होय सिद्धि साखी गौरीसा॥</div>
+    <div class="verse">तुलसीदास सदा हरि चेरा।<br>कीजै नाथ हृदय महँ डेरा॥</div>
 
-    <!-- Extra feature: Font size controls -->
-    
-
-    <!-- Each chaupai has an adjacent image.
-         Replace image filenames with illustrations that depict the meaning of that chaupai. -->
-
-    <div class="chaupai">
-      <img src="chaupai1.jpg" alt="हनुमान जी का ध्यान" />
-      <div class="text">श्रीगुरु चरन सरोज रज, निज मनु मुकुरु सुधारि।<br>बरनउँ रघुबर बिमल जसु, जो दायकु फल चारि॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai2.jpg" alt="हनुमान जी की महिमा" />
-      <div class="text">बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार।<br>बल बुधि विद्या देहु मोहिं, हरहु कलेस विकार॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai3.jpg" alt="केसरी नंदन हनुमान" />
-      <div class="text">जय हनुमान ज्ञान गुन सागर।<br>जय कपीस तिहुँ लोक उजागर॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai4.jpg" alt="राम दूत हनुमान" />
-      <div class="text">राम दूत अतुलित बल धामा।<br>अंजनि-पुत्र पवनसुत नामा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai5.jpg" alt="महावीर हनुमान" />
-      <div class="text">महाबीर बिक्रम बजरंगी।<br>कुमति निवार सुमति के संगी॥</div>
-    </div>
-
-        <div class="chaupai">
-      <img src="chaupai6.jpg" alt="विद्यावान हनुमान" />
-      <div class="text">विद्यावान गुनी अति चातुर।<br>राम काज करिबे को आतुर॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai7.jpg" alt="हनुमान विनय" />
-      <div class="text">प्रभु चरित्र सुनिबे को रसिया।<br>राम लखन सीता मन बसिया॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai8.jpg" alt="सूक्ष्म रूप हनुमान" />
-      <div class="text">सूक्ष्म रूप धरि सियहिं दिखावा।<br>विकट रूप धरि लंक जरावा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai9.jpg" alt="लंका दहन" />
-      <div class="text">भीम रूप धरि असुर सँहारे।<br>रामचंद्र के काज सँवारे॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai10.jpg" alt="संजीवनी" />
-      <div class="text">लाय सजीवन लखन जियाये।<br>श्रीरघुबीर हरषि उर लाये॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai11.jpg" alt="राम हनुमान संवाद" />
-      <div class="text">रघुपति कीन्ही बहुत बड़ाई।<br>तुम मम प्रिय भरतहि सम भाई॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai12.jpg" alt="सहस बदन" />
-      <div class="text">सहस बदन तुम्हरो जस गावैं।<br>अस कहि श्रीपति कंठ लगावैं॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai13.jpg" alt="सनकादिक" />
-      <div class="text">सनकादिक ब्रह्मादि मुनीसा।<br>नारद सारद सहित अहीसा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai14.jpg" alt="यम कुबेर" />
-      <div class="text">जम कुबेर दिगपाल जहाँ ते।<br>कवि कोविद कहि सके कहाँ ते॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai15.jpg" alt="राम नाम" />
-      <div class="text">तुम उपकार सुग्रीवहिं कीन्हा।<br>राम मिलाय राज पद दीन्हा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai16.jpg" alt="सीता खोज" />
-      <div class="text">तुम्हरो मंत्र विभीषण माना।<br>लंकेश्वर भए सब जग जाना॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai17.jpg" alt="लंका विजय" />
-      <div class="text">युग सहस्र योजन पर भानू।<br>लील्यो ताहि मधुर फल जानू॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai18.jpg" alt="हनुमान उड़ान" />
-      <div class="text">प्रभु मुद्रिका मेलि मुख माहीं।<br>जलधि लाँघि गये अचरज नाहीं॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai19.jpg" alt="लंका प्रवेश" />
-      <div class="text">दुर्गम काज जगत के जेते।<br>सुगम अनुग्रह तुम्हरे तेते॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai20.jpg" alt="राम भक्ति" />
-      <div class="text">राम दुआरे तुम रखवारे।<br>होत न आज्ञा बिनु पैसारे॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai21.jpg" alt="शरणागति" />
-      <div class="text">सब सुख लहै तुम्हारी शरणा।<br>तुम रक्षक काहू को डरना॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai22.jpg" alt="बजरंग बली" />
-      <div class="text">आपन तेज सम्हारो आपै।<br>तीनों लोक हाँक ते काँपै॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai23.jpg" alt="भूत पिशाच" />
-      <div class="text">भूत पिशाच निकट नहिं आवै।<br>महावीर जब नाम सुनावै॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai24.jpg" alt="रोग नाश" />
-      <div class="text">नासै रोग हरै सब पीरा।<br>जपत निरंतर हनुमत बीरा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai25.jpg" alt="संकट मोचन" />
-      <div class="text">संकट ते हनुमान छुड़ावै।<br>मन क्रम बचन ध्यान जो लावै॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai26.jpg" alt="राम कृपा" />
-      <div class="text">सब पर राम तपस्वी राजा।<br>तिन के काज सकल तुम साजा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai27.jpg" alt="फल प्राप्ति" />
-      <div class="text">और मनोरथ जो कोई लावै।<br>सोई अमित जीवन फल पावै॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai28.jpg" alt="चारों युग" />
-      <div class="text">चारों जुग परताप तुम्हारा।<br>है परसिद्ध जगत उजियारा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai29.jpg" alt="साधु संत" />
-      <div class="text">साधु संत के तुम रखवारे।<br>असुर निकंदन राम दुलारे॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai30.jpg" alt="अष्ट सिद्धि" />
-      <div class="text">अष्ट सिद्धि नौ निधि के दाता।<br>अस बर दीन जानकी माता॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai31.jpg" alt="राम रस" />
-      <div class="text">राम रसायन तुम्हरे पासा।<br>सदा रहो रघुपति के दासा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai32.jpg" alt="राम कथा" />
-      <div class="text">तुम्हरे भजन राम को पावै।<br>जनम जनम के दुख बिसरावै॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai33.jpg" alt="स्वर्ग द्वार" />
-      <div class="text">अंतकाल रघुबर पुर जाई।<br>जहाँ जन्म हरि-भक्त कहाई॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai34.jpg" alt="राम भक्ति" />
-      <div class="text">और देवता चित्त न धरई।<br>हनुमत सेई सर्व सुख करई॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai35.jpg" alt="हनुमान कृपा" />
-      <div class="text">संकट कटै मिटै सब पीरा।<br>जो सुमिरै हनुमत बलबीरा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai36.jpg" alt="दोहा" />
-      <div class="text">जय जय जय हनुमान गोसाईं।<br>कृपा करहु गुरुदेव की नाईं॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai37.jpg" alt="दोहा" />
-      <div class="text">जो शत बार पाठ कर कोई।<br>छूटहि बंदि महा सुख होई॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai38.jpg" alt="दोहा" />
-      <div class="text">जो यह पढ़ै हनुमान चालीसा।<br>होय सिद्धि साखी गौरीसा॥</div>
-    </div>
-
-    <div class="chaupai">
-      <img src="chaupai39.jpg" alt="दोहा" />
-      <div class="text">तुलसीदास सदा हरि चेरा।<br>कीजै नाथ हृदय महँ डेरा॥</div>
-    </div>
-
-                <h2 class="section-heading center">अंतिम दोहा</h2>
-
-    <div class="chaupai">
-      <img src="doha-final.jpg" alt="हनुमान जी आशीर्वाद" />
-      <div class="text">पवनतनय संकट हरन, मंगल मूरति रूप।<br>राम लखन सीता सहित, हृदय बसहु सुर भूप
-
+    <!-- FINAL DOHA -->
+    <h2>अंतिम दोहा</h2>
+    <div class="verse">पवनतनय संकट हरन, मंगल मूरति रूप।<br>राम लखन सीता सहित, हृदय बसहु सुर भूप॥
